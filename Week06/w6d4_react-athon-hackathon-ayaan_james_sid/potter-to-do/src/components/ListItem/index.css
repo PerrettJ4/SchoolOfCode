@@ -1,0 +1,55 @@
+.listItemContainer {
+  border: 10px;
+  border-color: black;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.content.top {
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  color: rgb(255, 255, 255);
+}
+
+.content.bottom {
+  /* display: flex; */
+  color: white;
+  /* flex-wrap: nowrap; */
+}
+
+/* main Parent Table */
+.content-table {
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: white;
+  width: 400px;
+  /* box-shadow: 0 0 2px rgb(173, 5, 5); */
+  margin-left: auto;
+  margin-right: auto;
+}
+/* table cells */
+.content-table td {
+  width: fit-content;
+  padding: 6px 9px;
+  align-items: center;
+  text-align: center;
+  /* margin: 0px 5px 0px 15px; */
+}
+
+/* finishing touches on borders */
+.content-table tr {
+  border-bottom: 1px solid #dddddd;
+}
+/* .content-table tr:nth-of-type(even) {
+  background-color: #404040;
+}
+.content-table tr:nth-of-type(odd) {
+  background-color: #303030;
+} */
+.content-table tr:last-of-type {
+  border-bottom: 2px solid #a19a9a;
+}

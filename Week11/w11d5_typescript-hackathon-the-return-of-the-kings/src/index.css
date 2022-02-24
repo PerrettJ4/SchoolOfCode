@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green-100: #b7efc5;
+  --green-200: #92e6a7;
+  --green-300: #6ede8a;
+  --green-400: #4ad66d;
+  --green-500: #2dc653;
+  --green-600: #25a244;
+  --green-700: #208b3a;
+  --green-800: #1a7431;
+  --green-900: #155d27;
+  --green-1000: #10451d;
+}
+
+body {
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

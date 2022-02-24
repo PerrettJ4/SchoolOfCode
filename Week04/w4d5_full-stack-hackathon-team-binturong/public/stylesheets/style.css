@@ -1,0 +1,80 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: auto;
+  text-align: center;
+  background-color: #ededed;
+  align-items: center;
+}
+label {
+  font-family: "Permanent Marker", cursive;
+}
+#title {
+  font-family: "Rampart One", cursive;
+  color: #4c1036;
+  font-size: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+form div {
+  display: flex;
+  margin: 1em 0;
+  justify-content: space-between;
+}
+
+/* main Parent Table */
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+}
+/* table cells */
+.content-table th,
+.content-table td {
+  width: fit-content;
+  padding: 18px 22.5px;
+}
+
+/* finishing touches on borders */
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even) {
+  background-color: whitesmoke;
+}
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: #c6d8ff;
+}
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #72195a;
+}
+/* Table Header style <th> */
+.content-table thead tr {
+  background-color: #72195a;
+  color: white;
+  text-align: left;
+}
+
+a {
+  color: #00b7ff;
+}
+
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}

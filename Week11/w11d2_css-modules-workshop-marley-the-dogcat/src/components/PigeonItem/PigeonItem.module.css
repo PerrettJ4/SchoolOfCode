@@ -1,0 +1,20 @@
+.container {
+  height: 200px;
+  width: 450px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: cyan;
+  box-shadow: inset 0px 0px 7px 1px #ef8914;
+
+  overflow: clip;
+}
+
+.container > img {
+  height: auto;
+  max-height: 180px;
+  width: 40%;
+  border-radius: 20%;
+}

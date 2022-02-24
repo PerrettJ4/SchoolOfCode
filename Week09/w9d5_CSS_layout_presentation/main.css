@@ -1,0 +1,104 @@
+/* HEADER */
+:root {
+  font-size: 16px;
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: 500px;
+  margin-bottom: 3rem;
+}
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+article {
+  width: 500px;
+}
+p {
+  font-size: 28px;
+}
+
+/* MAP */
+#map {
+  /* background-image: url("https://p0.pikist.com/photos/724/521/boat-ocean-sea-wave-nature-aerial-view-sailing-blue.jpg");
+  background-repeat: none; */
+
+  height: 50rem;
+  width: 50rem;
+  border: 2px solid black;
+  align-self: center;
+}
+/* THINGS */
+#volcano {
+  max-width: 10rem;
+  max-height: 10rem;
+  opacity: 60%;
+}
+#oasis {
+  background-color: lightblue;
+  border-radius: 50%;
+  border: 6px solid rgba(192, 152, 41, 0.65);
+}
+#x {
+  background-color: transparent;
+  border: none;
+}
+#land {
+  background-color: #c2b280;
+  border-radius: 10%;
+  border: 6px solid rgba(192, 152, 41, 0.65);
+  box-shadow: 0 0 20px cyan;
+}
+#parrot img,
+#tree1 img,
+#boat img {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+#tree2 img {
+  max-width: 5rem;
+  max-height: 10rem;
+}
+/* 
+
+
+
+
+
+
+
+*/
+/* MAP */
+#map {
+  background-color: blue;
+  display: grid;
+  grid: repeat(10, 10%) / repeat(10, 10%);
+}
+/* POSITIONS (ROW START / COL START / ROW END / COL END)  */
+#land {
+  grid-area: 2/2/9/9;
+}
+#parrot {
+  grid-area: 3/7/4/8;
+}
+#tree1 {
+  grid-area: 6/6/6/6;
+}
+#tree2 {
+  grid-area: 2/8/6/9;
+}
+#boat {
+  grid-area: 9/9/9/9;
+}
+#oasis {
+  grid-area: 7/5/8/8;
+}
+#volcano {
+  grid-area: 1/3/3/5;
+}
+#x {
+  grid-area: 5/3/5/3;
+}

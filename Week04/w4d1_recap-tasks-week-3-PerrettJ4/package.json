@@ -1,0 +1,27 @@
+{
+  "name": "monday-recap-tasks",
+  "version": "1.0.0",
+  "description": "- SQL\r  - Node\r  - NPM\r  - Express",
+  "main": "index.js",
+  "scripts": {
+    "createtable": "node db/scripts/createTable.js",
+    "populatetable": "node db/scripts/populateTable.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/recap_week-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/recap_week-3/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/recap_week-3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}

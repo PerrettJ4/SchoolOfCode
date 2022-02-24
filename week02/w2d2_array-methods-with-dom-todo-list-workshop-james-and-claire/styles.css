@@ -1,0 +1,14 @@
+.completed {
+    text-decoration: line-through;
+}
+
+#box {
+    background-color: burlywood;
+    box-shadow: 10px;
+    width: 200px;
+
+}
+
+#box:hover{
+    color: green;
+}

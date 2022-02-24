@@ -1,0 +1,34 @@
+#main {
+  margin-top: 50px;
+  position: static;
+}
+
+Input {
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+#scroll {
+  margin-top: 35px;
+  padding-top: 20px;
+  background-image: url("https://i.pinimg.com/originals/5f/8a/fa/5f8afafda857326eb55ab7e812e82c34.png");
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 50%;
+  /* position: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+article {
+  width: 40%;
+  padding-top: 10%;
+  font-family: "Yusei Magic", sans-serif;
+  align-items: center;
+  align-content: center;
+  color: black;
+  margin: auto;
+}

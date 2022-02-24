@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+Header {
+  background-color: black;
+  box-shadow: rgb(78, 99, 216);
+  color: red;
+  font-family: "Tangerine", cursive;
+  font-size: xx-large;
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+  justify-content: center;
+  margin-top: 30px;
+}

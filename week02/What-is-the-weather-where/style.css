@@ -1,0 +1,10 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/35/a9/38/35a938e8663f1ac9a0fd586e2e8e7796.jpg");
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+
+#map-link {
+    color: white
+}

@@ -1,0 +1,57 @@
+/* Container */
+table {
+  width: auto;
+}
+
+/* main Parent Table */
+.stuff-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: black;
+  /* box-shadow: 0 0 20px rgb(201, 130, 64); */
+}
+/* table cells */
+.stuff-table td {
+  padding: 18px 22.5px;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+}
+
+/* finishing touches on borders */
+
+.stuff-table tr:nth-of-type(even) {
+  background-color: white;
+}
+.stuff-table tr:nth-of-type(odd) {
+  background-color: white;
+}
+.stuff-table tr:last-of-type {
+  border-bottom: 2px solid rgb(201, 130, 64);
+}
+
+.stuff {
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  vertical-align: top;
+}
+
+.stuff.avatar {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  margin-left: 130px;
+  padding: 1px;
+  border-radius: 100%;
+  background-color: firebrick;
+  text-align: center;
+  align-self: center;
+  vertical-align: center;
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  font-weight: bold;
+}

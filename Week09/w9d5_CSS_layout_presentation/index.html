@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRID TREASURE MAP</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <header>
+    <h1>THE CSS GRID TREASURE MAP</h1>
+  </header>
+  <body>
+    <div id="content">
+      <article>
+        <p>
+          #map { <br />
+          background-color: blue; <br />
+          display: grid; <br />grid: repeat(10, 10%) / repeat(10, 10%);
+          <br />}<br /><br />
+          (R-S / C-S / R-E / C-E) <br />#land { grid-area: 2/2/9/9; }
+          <br />#parrot { grid-area: 3/7/4/8; } <br />#tree1 { grid-area:
+          6/6/6/6; } <br />#tree2 { grid-area: 2/8/6/9; } <br />#boat {
+          grid-area: 9/9/9/9; } <br />#oasis { grid-area: 7/5/8/8; }
+          <br />#volcano { grid-area: 1/3/3/5; } <br />#x { grid-area: 5/3/5/3;
+          }
+        </p>
+      </article>
+      <main id="map">
+        <div id="land"></div>
+        <div id="oasis"></div>
+        <div id="parrot">
+          <img
+            src="https://static.wixstatic.com/media/2cd43b_725c6f4aa3a04de6ba882da1428cce02~mv2.png/v1/fill/w_320,h_279,q_90/2cd43b_725c6f4aa3a04de6ba882da1428cce02~mv2.png"
+            alt="parrot"
+          />
+        </div>
+        <div id="tree1">
+          <img
+            src="https://www.dictionary.com/e/wp-content/uploads/2018/11/Palm_Tree_Emoji.png"
+            alt="tree1"
+          />
+        </div>
+        <div id="tree2">
+          <img
+            src="https://www.freeiconspng.com/thumbs/palm-png/palm-tree-png-transparent-0.png"
+            alt="tree2"
+          />
+        </div>
+        <div id="boat">
+          <img
+            src="https://www.iconshock.com/image/RealVista/Transportation/speed_boat"
+            alt="boat"
+          />
+        </div>
+        <div id="volcano">
+          <img
+            src="https://styles.redditmedia.com/t5_2wo26/styles/communityIcon_ugwgtrviolf51.png"
+            alt="volcano"
+          />
+        </div>
+        <button id="x">❌</button>
+      </main>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>

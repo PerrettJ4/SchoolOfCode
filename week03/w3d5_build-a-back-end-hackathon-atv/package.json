@@ -1,0 +1,21 @@
+{
+  "name": "workshops_servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "droptable": "node ./db/dropTable.js",
+    "insertdata": "node ./db/insertdata.js",
+    "createrecipetable": "node ./db/createRecipeTable.js",
+    "selecttabledata": "node ./db/selectTableData.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chris Meah <chris@schoolofcode.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}

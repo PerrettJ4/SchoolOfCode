@@ -1,0 +1,34 @@
+#page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a a b" "a a d";
+}
+
+#page > main{
+    grid-area: a;
+}
+
+#page > header{
+    grid-area: b;
+}
+
+img {
+    box-sizing: border-box;
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 3px;
+  }
+
+  h2{
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 3px;
+  }

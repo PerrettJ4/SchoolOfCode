@@ -1,0 +1,23 @@
+#author,
+#text,
+#priority,
+#submit {
+  background-color: rgb(173, 5, 5);
+  color: white;
+  border-radius: 1px;
+  margin-left: 2px;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  box-shadow: 0 0 20px black;
+}
+
+::placeholder {
+  color: white;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

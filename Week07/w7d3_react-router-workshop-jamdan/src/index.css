@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+nav {
+  display: flex;
+  direction: row;
+}
+#james {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+#james li {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#james2 {
+  width: 50%;
+}
+a {
+  padding: 5px 10px;
+  border-radius: 7%;
+  text-decoration: none;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #000000;
+  /* color: #ce1126; */
+}
+
+.unSelected a {
+  color: #fcd116;
+  background-color: #002b7f;
+}
+
+.selected a {
+  color: #ce1126;
+  background-color: #fcd116;
+}

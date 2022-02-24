@@ -1,0 +1,16 @@
+.comment-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+  background-color: grey;
+  border-radius: 5%;
+  margin-left: 0;
+  width: max-content;
+}
+.comment {
+  margin-left: 5%;
+}
+.react-buttons {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
